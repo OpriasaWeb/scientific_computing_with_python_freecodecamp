@@ -41,3 +41,5 @@ def create_character(character_name, strength, intelligence, charisma):
         f"{stat_line('INT', intelligence)}\n"
         f"{stat_line('CHA', charisma)}"
     )
+    
+create_character("Sulfurturero", 2, 2, 2)
